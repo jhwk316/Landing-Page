@@ -98,3 +98,21 @@ li a {
 .info {
     padding-top: 8px;
 }
+
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10vh 20vw;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+
+}
+
+.quotesrc {
+    font-weight: bold;
+    font-style: normal;
+}
