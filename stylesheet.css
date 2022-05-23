@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    font-family: "roboto", sans-serif;
+}
 
 .hero {
     display: flex;
@@ -10,6 +13,10 @@
     padding: 10px 15vw;
     background-color: #1f2937;
     color: #f9faf8;
+}
+
+.logo img {
+    height: 150px;
 }
 
 .nav {
@@ -26,6 +33,17 @@ ul {
 li a {
     text-decoration: none;
     color: #f9faf8;
+    font-weight: 600;
+    
+}
+
+li a:hover {
+    padding: 5px;
+    background-color: #f9faf8;
+    color: #1f2937;
+    border-radius: 10px;
+    font-weight: 600;
+
 }
 
 .herobottom {
@@ -61,6 +79,10 @@ li a {
     color: #f9faf8;
 }
 
+.herobottom img {
+    width: 500px;
+}
+
 .section2 {
     display: flex;
     flex-direction: column;
@@ -73,17 +95,22 @@ li a {
 .section2-pics {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 18px;
     padding: 16px;
 
 }
 
 .section2-pics img {
-    width: 275px;
-    height: 275px;
+    width: 300px;
     border: 2px solid #3882f6;
     border-radius: 10px;
+    box-shadow: 4px 3px 2px 1px #1f2937;
    
+}
+
+.section2-pics p {
+    width: 275px;
+    text-align: center;
 }
 
 .pic1,
@@ -119,13 +146,13 @@ li a {
 }
 
 .section4 {
-    margin: 10vh 15vw;
-    padding: 28px 36px;
+    margin: 10vh 25vw;
+    padding: 36px;
     border-radius: 10px;
     color: #e5e7eb;
     background-color: #3882f6;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 }
@@ -136,7 +163,7 @@ li a {
 }
 
 .section4 p {
-    font-size: 12px;
+    font-size: 14px;
     
 }
 
@@ -150,14 +177,23 @@ li a {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #1f2937;
     color:#f9faf8;
     padding: 24px;
     text-align: center; 
+    gap: 10px;
 }
 
 footer span {
     padding: 0 8px;
 }
+
+footer a {
+    color: #e5e7eb;
+}
+
+
+
 
