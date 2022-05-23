@@ -16,3 +16,14 @@ photo4 Photo by Kateryna Babaieva: https://www.pexels.com/photo/animal-portrait-
 
 
 information about huskies via pawtracks.com
+
+
+This project was inspired by my 2 dogs, both of whom are huskies. Using the layout and color scheme provided by the Odin Project, I customized the page a little bit to make it more personalized. After tinkering around with a different color schemes, I decided to keep the color scheme as it works quite well with the subject matter.
+
+This project leaned heavily on practicing flexbox. Flexbox was implemented in every section of the page. 
+
+I certainly could use more practice but I feel like I've learned quite a bit about flexbox and look forward to using more.
+
+I feel my project is ready to publish and I certainly welcome any comments or critique. 
+
+Thank You
