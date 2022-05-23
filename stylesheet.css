@@ -116,3 +116,33 @@ li a {
     font-weight: bold;
     font-style: normal;
 }
+
+.section4 {
+    margin: 10vh 15vw;
+    padding: 28px 36px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.section4 .section4bold {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.section4 p {
+    font-size: 12px;
+    
+}
+
+.bottombtn {
+    padding: 8px 16px;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
