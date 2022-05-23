@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15vw;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+li a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.herobottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 0;
+}
+
+.headtext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.headtext h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.headtext p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headbtn {
+    padding: 8px 16px;
+    margin: 5px 0;
+    border: none;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 15vw;
+
+}
+
+.section2-pics {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+
+}
+
+.section2-pics img {
+    width: 275px;
+    height: 275px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+   
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.info {
+    padding-top: 8px;
+}
